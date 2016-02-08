@@ -1,0 +1,15 @@
+@import url("bootstrap/css/bootstrap.min.css");
+@import url("bootstrap/css/theme.min.css");		
+
+@font-face {
+  font-family: Roboto Sans Web;
+  src: url('fonts/Roboto-Bold.ttf') format("opentype");
+  src: url('fonts/Roboto-Regular.ttf') format("opentype");
+}
+
+body {
+background-color: gray;
+font-family: 'Roboto', sans-serif; 
+color: #91B0E6;
+height:100%; 
+}

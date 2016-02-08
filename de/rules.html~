@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+ <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Schau dir unsere Regeln an!">
+ <title>
+        ..:: Illuna Minetest - Regelwerk ::..
+ </title>
+</head>
+
+<body link="#c7c7c7" vlink="#c7c7c7" alink="#c7c7c7">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+              <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>  
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+         <ul class="nav navbar-nav">
+                <li><a href="home">Home</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li class="disabled"><a href="#"><font color="#E4E4E4">News</font></a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="mapshots">Mapshots</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="q+a">Q & A</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li class="active"><a href="rules">Regelwerk</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="mods">Mods</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="stats">Spielerstatistiken</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="donate">Unterstützen</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="contact">Kontakt & Social</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="space-top"></div>
+<div class="container shader" id="content">
+    <!--<div id="content">-->
+  <table class="table">
+
+<h4>Regelwerk für Spieler:</h4>
+<ul>
+<li>
+<p>Es ist nicht gestattet eine Brandrodung zu vollziehen.<br>
+Das Feuer ist leider zu schwer unter Kontrolle zu bringen.</p>
+</li>
+<li>
+<p>Es darf auch aus ungesperrten Truhen nichts entnommen werden. Auch nicht von Admins.</p>
+</li>
+<li>
+<p>Ausnahmen:<br />
+-Ausdrückliche Erlaubnis des Besitzers<br />
+-Sharepoints</p>
+</li>
+<li>
+<p>Im Umkreis von 50 Blöcken um ein Baugebiet eines individuellen Spielers darf nichts verändert werden.<br />
+Es darf auch kein Baum gefällt werden o.ä.</p>
+</li>
+<li>
+<p>Ausnahmen:<br />
+-ausdrückliche Erlaubnis des Bautreibenden<br>
+-ein Admin erlaubt es Dir</p>
+</li>
+<li>
+<p>Persönliche Beleidigungen, jede Form von Mobbing, rassistische Äusserungen etc. sind nicht gestattet.</p>
+</li>
+<li>
+<p>Planieren und zerstören ganzer Landschaften ist unerwünscht.</p>
+</li>
+<li>
+<p>Abgeschlagene Bäume sind mittels der gedroppten Setzlinge nachzuforsten (mindestens 1 neuer Setzling auf einen abgeschlagenen Baum)</p>
+</li>
+<li>
+<p>Töten von Mitspielern ist nicht gewünscht</p>
+</li>
+<li><p>Ausnahmen:<br />
+-Der Spieler ist damit einverstanden<br />
+-PvP Events</p></li>
+</ul>
+<hr />
+<h4>Regeln für Admins (je nach zugewiesenen Rechten)</h4>
+<ul>
+<li><p>Es ist nicht gestattet für Spieler oder für sich selbst Items via Serverbefehl zu erhalten</p></li>
+<li>
+<p>Ausnahmen:<br />
+-Unglück auf Seite des Servers, welches anders nicht rettbar ist<br />
+-Ein Spieler hat Gegenstände geklaut, wurde permanent gebannt und gestohlene Items sind aus seinem Konto nicht hervorzuholen</p>
+</li>
+<li>
+<p>Es ist nicht gestattet zu eigenem Vorteil bei Crafting, Bauen, oder Stürzen zu fliegen.</p>
+</li>
+<li>
+<p>Fliegen darf <strong>nur</strong> eingesetzt werden, um bei Problemen schnell zu einem User zu gelangen, oder User allgemein zu beobachten..</p>
+</li>
+<p><strong>Hinweis:</strong><br>
+-User dürfen durch Beobachtung nicht bedrängt werden<br>
+-Beobachtung von Usern sollte nur geschehen, wenn diese vorher etwas verbrochen haben, oder neu sind, und ggf Tipps benötigen
+</p>
+<li><p>Niemand darf zum Vergnügen oder aus Willkür/Stimmung gekickt, gebannt, verfolgt oder bedroht werden.</p></li>
+</ul><hr>
+<h5><strong>Notiz:</strong></h5>
+<ul>
+<li><p>Es ist essenziell, das, wenn administrative Entscheidungen gefällt werden/wurden Rücksprache<br> mit den anderen Admins gehalten wird/die Admins und User über ein getroffenes Urteil mit Begründung informiert werden.</p></li>
+
+<li><p>Sollte es notwendig sein, Items anzufordern, oder/und ist ein Problem mit dem Server aufgetreten, <br>bzw. ist ein Rollback oder Ähnliches nötig, sind sofort @Milan und @Benny zu benachrichtigen.<br>
+Es darf erst etwas unternommen werden, wenn Beide sich einig sind und dir grünes Licht geben.</p></li>
+</ul>
+</table>
+</font>
+</div>
+</div>
+<link href='../scripts/custom.css' rel="stylesheet" type="text/css">
+<script src="../scripts/bootstrap/js/jquery.min.js"></script>
+<script src="../scripts/bootstrap/js/collapse.js"></script> 
+<script src="../scripts/bootstrap/js/bootstrap.min.js"></script>
+<script src="../scripts/jquery/piwik.js"></script>
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="contact & social">
+ <title>
+        ..:: Illuna Minetest - Kontakt ::..
+ </title>
+</head>
+
+<body link="#c7c7c7" vlink="#c7c7c7" alink="#c7c7c7">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+              <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>  
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+         <ul class="nav navbar-nav">
+                <li><a href="home">Home</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li class="disabled"><a href="#"><font color="#E4E4E4">News</font></a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="mapshots">Mapshots</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="q+a">Q & A</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="rules">Regelwerk</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="mods">Mods</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="stats">Spielerstatistiken</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="donate">Unterstützen</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="contact">Contact & Social</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+        <div class="space-top"></div>
+        <div class="container shader" id="content">
+            <!--<div id="content">-->
+            <div align="left" id="content">
+                <h3>Trete mit uns in Kontakt!</h3>
+                <h4><strong>Milan</strong></h4>
+                <p><a href="https://telegram.me/Erdenfreund" data-toggle="tooltip" data-placement="top" title="" data-original-title="Telegram: @Erdenfreund"><img src="https://tchncs.de/ico/tg.jpe" class="circle-border" />
+                </a> – <a href="https://toxme.se/u/technics" data-toggle="tooltip" data-placement="top" title="" data-original-title="Schreibe mich auf TOX an"><img src="https://tchncs.de/ico/tox.png" class="circle-border" /></a> – 
+                <a href="xmpp:technics@tchncs.de" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jabber: technics@tchncs.de"><img src="https://tchncs.de/ico/xmpp.png" class="circle-border" /></a> 
+                <img src="https://tchncs.de:5281/status/technics" class="circle-border" data-toggle="tooltip" data-placement="right" title="" data-original-title="Mein Onlinestatus" /> – 
+                <a href="https://pod.tchncs.de/u/technics" data-toggle="tooltip" data-placement="top" title="" data-original-title="Milan* auf diaspora*"><img src="https://tchncs.de/ico/dsp.png" class="circle-border" /> </a>&#8211;
+                <a href="https://linux-statt-windows.org/user/milan" data-toggle="tooltip" data-placement="top" title="" data-original-title="Milan* im Linux statt Windows.org Forum"><img src="https://tchncs.de/ico/lsw.jpg" class="circle-border" width="26" /></a></p>
+               <h4><strong>Coeseta</strong></h4>
+                <a href="xmpp:coeseta@jabber.se" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jabber: coeseta@jabber.se"><img src="https://tchncs.de/ico/xmpp.png" class="circle-border" /></a>
+                  – <a href="https://pod.tchncs.de/u/coeseta" data-toggle="tooltip" data-placement="top" title="" data-original-title="Coeseta auf diaspora*"><img src="https://tchncs.de/ico/dsp.png" class="circle-border" /> </a>                
+               <h4><strong>Kelso</strong></h4>
+                <a href="xmpp:kelso@tchncs.de" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jabber: kelso@tchncs.de"><img src="https://tchncs.de/ico/xmpp.png" class="circle-border" /></a>
+					<img src="https://tchncs.de:5281/status/technics" class="circle-border" data-toggle="tooltip" data-placement="right" title="" data-original-title="Mein Onlinestatus" />                
+                  – <a href="https://pod.tchncs.de/u/kelso" data-toggle="tooltip" data-placement="top" title="" data-original-title="Kelso auf diaspora*"><img src="https://tchncs.de/ico/dsp.png" class="circle-border" /> </a>                 
+                <h4><strong>Benny</strong></h4>
+                <p><a href="http://telegram.me/BennyBolivar" data-toggle="tooltip" data-placement="top" title="" data-original-title="Telegram: @BennyBolivar"><img src="https://tchncs.de/ico/tg.jpe" class="circle-border" /></a> 
+                &#8211;<a href="https://linux-statt-windows.org/user/benny" data-toggle="tooltip" data-placement="top" title="" data-original-title="Benny im Linux statt Windows.org Forum"><img class="circle-border" src="https://tchncs.de/ico/lsw.jpg" alt="" width="26" /></a>&#8211;
+                <a href="http://joindiaspora.com/u/bennybolivar" data-toggle="tooltip" data-placement="top" title="" data-original-title="Benny auf diaspora*"><img src="https://tchncs.de/ico/dsp.png" class="circle-border" /></a></p>
+ 
+
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <h3><strong>...oder häng einfach mit uns ab:</strong></h3>
+                <p>&nbsp;</p>
+                <h4><strong>Unsere Gruppenchats:</strong></h4>
+                <p><a href="https://telegram.me/joinchat/A5mDqAFOkihg41S4vEUNjw" target="_blank"> <img src="https://tchncs.de/ico/tg.jpe" class="circle-border" /></a> – 
+                <a href="xmpp:illuna@muc.tchncs.de?join"><img src="https://tchncs.de/ico/xmpp.png" class="circle-border" /></a></p>
+                <p>&nbsp;</p>
+                <h4><strong>&#8230;unterhalte dich mit deinen Mitspielern!</strong></h4>
+                <p><a href="mumble://mumble.lsw.io/Eingangshalle?title=Linux%20statt%20Windows&amp;version=1.2.0"><img class="circle-border" src="../images/contact/mumble2.png" alt="mumble" style="padding: 5px; border: 1px solid #ccc; background-color: #eee;"/></a></p>
+                <p>&nbsp;</p>
+            </div>
+            <div align="center">
+                <p>&nbsp;</p>
+                <hr />
+                <p> <h4>Unsere Chats sind verbunden. Egal was du bevorzugst. Chatte mit uns, egal von wo:</h4></p>
+                <div class="well well-sm" style="max-width:400px;">
+                    <p style="font-weight:700;font-size:140%;display:inline;color:#6594cf;">XMPP <img src="../images/blinky.gif"> IRC <img src="../images/blinky.gif"> Minetest</p>
+                </div>
+                <hr>
+                <h4 style="text-align: center;">Communitys</h4>
+                <p style="text-align: center;"><a href="https://plus.google.com/u/0/communities/115202007197799327086" target="_blank"><img class="size-full wp-image-343" src="../images/contact/g-.png" alt="g+" width="50" height="50" /></a> 
+                <a href="https://www.facebook.com/groups/illuna.minetest/" target="_blank"><img class="size-full wp-image-342" src="../images/contact/fb.png" alt="fb" width="50" height="51" /></a></p>
+                <hr />
+                <h4 style="text-align: center;">Threads</h4>
+                <p style="text-align: center;"><a href="https://forum.minetest.net/viewtopic.php?f=10&amp;t=13556" target="_blank"><img class="size-full wp-image-345" src="../images/contact/mt_en.png" alt="mt_en" width="50" height="50" /></a> 
+                <a href="https://forum.minetest.net/viewtopic.php?f=21&amp;t=13608" target="_blank"><img class="size-full wp-image-346" src="../images/contact/mt_de.png" alt="mt_de" width="50" height="50" /></a></p>
+                <hr />
+                <h4 style="text-align: center;">Social</h4>
+                <p style="text-align: center;"><a href="https://www.facebook.com/The-World-of-Illuna-984993854875973/" target="_blank"><img class="size-full wp-image-342" src="../images/contact/fb.png" alt="fb" width="50" height="51" /> </a>
+                <a href="https://pod.tchncs.de/people/ed838280773a0133568700163cfa796c" target="_blank"><img class=" wp-image-378" src="../images/contact/diaspora.png" alt="diaspora" width="52" height="52" /> </a>
+                <a href="https://twitter.com/illunaminetest" target="_blank"><img class="size-full wp-image-379" src="../images/contact/twitter.png" alt="twitter" width="50" height="50" /></a></p>
+                <br><br>	
+            </div>
+            </div>
+
+<link href='../scripts/custom.css' rel="stylesheet" type="text/css"></link>
+<script src="../scripts/bootstrap/js/jquery.min.js"></script>
+<script src="../scripts/bootstrap/js/collapse.js"></script> 
+<script src="../scripts/bootstrap/js/bootstrap.min.js"></script>
+<script src="../scripts/bootstrap/js/tooltip.js"></script>
+<script>
+$( document ).ready(function () { // this has to be done after the document has been rendered
+$("[data-toggle='tooltip']").tooltip({html: true}); // enable bootstrap 3 tooltips
+$('[data-toggle="popover"]').popover({
+trigger: 'hover',
+'show': true
+});
+});
+</script>
+<script src="../scripts/jquery/piwik.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+   <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="finde die neueste Minetestversion">
+ <title>
+        ..:: Illuna Minetest - Updaten ::..
+ </title>
+</head>
+
+<body link="#c7c7c7" vlink="#c7c7c7" alink="#c7c7c7">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+              <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>  
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+         <ul class="nav navbar-nav">
+                <li class="active"><a href="home">Home</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li class="disabled"><a href="#"><font color="#E4E4E4">News</font></a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="mapshots">Mapshots</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="q+a">Q & A</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="rules">Regelwerk</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="mods">Mods</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="stats">Spielerstatistiken</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="donate">Unterstützen</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="contact">Kontakt & Social</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="space-top"></div>
+<div class="container shader" id="content">
+
+<ul>
+<li>Choose your System</li>
+<ol>
+<li><a href="#linux">Linux</a></li>
+<ol>
+<li>Ubuntu / Linux Mint</li>
+<li>Arch Linux and Derivates</li>
+<li>compile it by hand</li>
+</ol>
+<li><a href="#osx">OS X</a></li>
+<li><a href="#windows">Windows</a></li>
+</ol>
+</ul>
+</div>
+<a name="linux"></a>
+<div class="space-top"></div>
+<div class="container shader" id="content">
+<div style="text-align: left;">
+<h2 style="text-align: center;">Linux:</h2>
+<h3>Ubuntu / Linux Mint</h3>
+Open your Terminal (Sometimes called "Konsole") and type the following:<br><br>
+<code>
+sudo add-apt-repository ppa:minetestdevs/stable <br>
+sudo apt-get update && sudo apt-get dist-upgrade
+</code>
+<h3>Arch Linux and Derivates</h3>
+The Arch Repos are currently up to date.<br>
+If you have an older version, doublecheck your Mirrorlist.<br><br>
+<h4>AUR</h4>
+If you have access to the AUR, just install <code>minetest-git</code>.<br><br>
+<h4>compiling by hand</h4>
+<code>
+git clone https://github.com/minetest/minetest<br>
+cd minetest/games<br>
+git clone https://github.com/minetest/minetest_game && cd ..<br>
+cmake . //check if there are no errors<br>
+make -j$(grep -c processor /proc/cpuinfo)<br>
+sudo make install //if you want
+</code>
+</div>
+</div>
+<a name="osx"></a>
+<div class="space-top"></div>
+<div class="container shader" id="content">
+<div style="text-align: left;">
+<h2 style="text-align: center;">OS X</h2>
+<h3>10.5</h3>
+<h3>10.6</h3>
+<h3>10.7</h3>
+<h3>10.8</h3>
+<h3>10.9</h3>
+<h3>Yosemite (10.10)</h3>
+<a href="https://github.com/krondor-game/minetest/releases/download/stable/minetest-0.4.13-osx.zip"><button type="button" class="btn btn-success" data-placement="bottom">Download</button></a>
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+<a name="windows"></a>
+<div class="space-top"></div>
+<div class="container shader" id="content">
+<div style="text-align: center;">
+<h2>Windows</h2>
+<br>
+If you dont know if you have 32bit or 64bit, you can look at <code>Start -> Systemcontrol -> System</code>
+<br>
+<br>
+<br>
+ <a href="https://github.com/minetest/minetest/releases/download/0.4.13/minetest-0.4.13-win64-installer.exe"><button type="button" class="btn btn-success" data-placement="bottom">Download 64bit</button></a>
+ <a href="https://github.com/minetest/minetest/releases/download/0.4.13/minetest-0.4.13-win64-msvc.zip"><button type="button" class="btn btn-success" data-placement="bottom">Download 64bit (portable)</button></a>
+ <a href="https://github.com/minetest/minetest/releases/download/0.4.13/minetest-0.4.13-win32-msvc.zip"><button type="button" class="btn btn-success" data-placement="bottom">Download 32bit (portable)</button></a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+
+
+
+<link href='../scripts/custom.css' rel="stylesheet" type="text/css">
+<script src="../scripts/bootstrap/js/jquery.min.js"></script>
+<script src="../scripts/bootstrap/js/collapse.js"></script> 
+<script src="../scripts/bootstrap/js/bootstrap.min.js"></script>
+<script src="../scripts/jquery/piwik.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
