@@ -49,6 +49,11 @@ span {
 color: grey;
 }
 
+code {
+color:#324E6F;
+background: none;
+}
+
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   -webkit-transition-property: opacity;
