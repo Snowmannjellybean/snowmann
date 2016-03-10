@@ -57,18 +57,21 @@
         
             <p style="color: grey;">
         <div class="row">
-            <div class="col-md-3 thumbnail">
-                <a href="../images/screenshots/landschaft/l_1_reg.png" data-toggle="lightbox" data-gallery="" data-title="">
+            <div class="col-md-3 thumbnail navigateTo" style="padding-right:4px;">
+                <a href="../images/screenshots/landschaft/l_1_reg.png" data-toggle="lightbox" data-gallery="navigateTo" data-title="">
                     <img class="img-responsive" src="../images/screenshots/landschaft/l_1_sm.jpg" alt="">
                 </a>
                 <div class="caption">
                     <h5>Mapgen V7 Area</h5>
                 </div>
             </div>
-            <div class="col-md-3 thumbnail">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+            <div class="col-md-3 thumbnail navigateTo">
+                <a href="../images/screenshots/landschaft/l_2_reg.png" data-toggle="lightbox" data-gallery="navigateTo" data-title="">
+                    <img class="img-responsive" src="../images/screenshots/landschaft/l_2_sm.jpg" alt="">
                 </a>
+                <div class="caption">
+                    <h5>Flying...</h5>
+                </div>
             </div>
             <div class="col-md-3 thumbnail">
                 <a href="#">
@@ -174,7 +177,32 @@
 
 			});
 		</script>
+		<script type="text/javascript">
+			$(document).ready(function ($) {
 
+				// delegate calls to data-toggle="lightbox"
+				$(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function(event) {
+					event.preventDefault();
+					return $(this).ekkoLightbox({
+						onShown: function() {
+							if (window.console) {
+								return console.log('onShown event fired');
+							}
+						},
+						onContentLoaded: function() {
+							if (window.console) {
+								return console.log('onContentLoaded event fired');
+							}
+						},
+						onNavigate: function(direction, itemIndex) {
+							if (window.console) {
+								return console.log('Navigating '+direction+'. Current item: '+itemIndex);
+							}
+						}
+					});
+				});
+            });
+</script>
 <script src="../scripts/jquery/piwik.js"></script>
 <link href='../scripts/custom.css' rel="stylesheet" type="text/css">
 <link href="../scripts/ekko-lightbox.css" rel="stylesheet">
