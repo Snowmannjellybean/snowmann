@@ -189,3 +189,5 @@ background-color: #eee;
 .scr-label {
 color:blue;
 }
+
+.thumbnail {box-shadow:0 9px 19px -5px rgba(0,0,0,0.7);}
