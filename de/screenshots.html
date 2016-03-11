@@ -101,8 +101,8 @@
             <hr>
             <nav>
                 <ul class="pager">
-                    <li class="previous"><a href="javascript:history.back()"><span aria-hidden="true">&larr;</span> back to privous page</a></li>
-                </UL>
+                    <li class="previous"><a href="javascript:history.back()"><span aria-hidden="true">&larr;</span> back to previous page</a></li>
+                </ul>
             </nav>
         </div>
     </div>
@@ -112,7 +112,6 @@
 <script src="../scripts/bootstrap/js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function ($) {
-
 				// delegate calls to data-toggle="lightbox"
 				$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
 					event.preventDefault();
@@ -120,12 +119,10 @@
 						always_show_close: true
 					});
 				});
-
 			});
 		</script>
 		<script type="text/javascript">
 			$(document).ready(function ($) {
-
 				// delegate calls to data-toggle="lightbox"
 				$(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function(event) {
 					event.preventDefault();
