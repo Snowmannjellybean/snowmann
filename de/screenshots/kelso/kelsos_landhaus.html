@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+   <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="minetest minetestserver illunaminetest minetestilluna minetest-illuna illuna-minetest illuna server texturepack minetestmod mod minecraft">
+ <title>
+        ..:: Illuna Minetest - Screenshots | Kelso's Landhaus ::..
+ </title>
+</head>
+
+<body link="#c7c7c7" vlink="#c7c7c7" alink="#c7c7c7">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+              <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>  
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+                <li><a href="../../../home">Home</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li class="disabled"><a href="../#"><font color="#E4E4E4">News</font></a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="../../../mapshots">Mapshots</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="../../../q+a">Q & A</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="../../../rules">Regelwerk</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="../../../mods">Mods</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="../../../stats">Spielerstatistiken</a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="../../../donate">Unterstützen</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../../../contact">Kontakt & Social</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="space-top"></div>
+    <div class="container shader" id="content">
+        <h3 class="page-header" style="margin-top:-18px;text-align:center;">..:: kelso's landhaus ::..</h3>
+        <div class="col-sm-6 col-md-3"> 
+            <div class=thumbnail> 
+                <a href="../../../images/screenshots/users/kelso/kelsos_landhaus/kl_1_reg.png" data-toggle="lightbox" data-gallery="navigateTo" data-title="">
+                    <img src="../../../images/screenshots/users/kelso/kelsos_landhaus/kl_1_sm.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3"> 
+            <div class=thumbnail>
+                <a href="../../../images/screenshots/users/kelso/kelsos_landhaus/kl_2_reg.png" data-toggle="lightbox" data-gallery="navigateTo" data-title="">
+                    <img src="../../../images/screenshots/users/kelso/kelsos_landhaus/kl_2_sm.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <div class=thumbnail>
+                 <a href="../../../images/screenshots/users/kelso/kelsos_landhaus/kl_3_reg.png" data-toggle="lightbox" data-gallery="navigateTo" data-title="">
+                     <img src="../../../images/screenshots/users/kelso/kelsos_landhaus/kl_3_sm.jpg">
+                 </a>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <hr>
+            <nav>
+                <ul class="pager">
+                    <li class="previous"><a href="../javascript:history.back()"><span aria-hidden="true">&larr;</span> zurück zur vorherigen Seite</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="scr-license">
+		<small>alle Screenshots stehen unter:<br></small> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/de/" target="_blank"><img src="../../../images/cc-by-nc-sa.png" style="width:100px;padding-bottom:5px;"></a>
+    </div>
+    <div class="space-top"></div>
+
+<script src="../../../scripts/bootstrap/js/jquery.min.js"></script>
+<script src="../../../scripts/jquery/ekko-lightbox.js"></script>
+<script src="../../../scripts/bootstrap/js/collapse.js"></script> 
+<script src="../../../scripts/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function ($) {
+				// delegate calls to data-toggle="lightbox"
+				$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+					event.preventDefault();
+					return $(this).ekkoLightbox({
+						always_show_close: true
+					});
+				});
+			});
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function ($) {
+				// delegate calls to data-toggle="lightbox"
+				$(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function(event) {
+					event.preventDefault();
+					return $(this).ekkoLightbox({
+						onShown: function() {
+							if (window.console) {
+								return console.log('onShown event fired');
+							}
+						},
+						onContentLoaded: function() {
+							if (window.console) {
+								return console.log('onContentLoaded event fired');
+							}
+						},
+						onNavigate: function(direction, itemIndex) {
+							if (window.console) {
+								return console.log('Navigating '+direction+'. Current item: '+itemIndex);
+							}
+						}
+					});
+				});
+            });
+</script>
+<script src="../../../scripts/jquery/piwik.js"></script>
+<link href='../../../scripts/custom.css' rel="stylesheet" type="text/css">
+<link href="../../../scripts/ekko-lightbox.css" rel="stylesheet">
+<link href="../../../scripts/ekko-lightbox-dark.css" rel="stylesheet">
+<link href="../../../scripts/bg.css" rel="stylesheet" type="text/css">
+</body>
+</html>
