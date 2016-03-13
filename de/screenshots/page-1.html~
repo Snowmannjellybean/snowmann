@@ -139,16 +139,6 @@
         </div>
 	    <div class="col-sm-6 col-md-3">
 	        <div class=thumbnail>
-	            <a href="kelso/kelsos_landhaus">
-	               <img src="../../images/screenshots/users/kelso/kelsos_landhaus/kl_3_sm_cover.jpg" alt="">
-	            </a>
-	            <div class=caption>
-	                    <h4><strong>Kelso's Landhaus</strong><span class="label label-info" style="float:right;">kelso</span></h4></p>
-	            </div>
-	        </div>
-	    </div>
-	    <div class="col-sm-6 col-md-3">
-	        <div class=thumbnail>
 	            <a href="sunstorm314/wolkenkratzer">
 	               <img src="../../images/screenshots/users/sunstorm314/wolkenkratzer/wk_1_sm_cover.jpg" alt="">
 	            </a>
@@ -170,7 +160,6 @@
 		<small>alle Screenshots stehen unter:<br></small> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/de/" target="_blank"><img src="../../images/cc-by-nc-sa.png" style="width:100px;padding-bottom:5px;"></a>
     </div>
     <div class="space-top"></div>
-
 <script src="../../scripts/bootstrap/js/jquery.min.js"></script>
 <script src="../../scripts/jquery/ekko-lightbox.js"></script>
 <script src="../../scripts/bootstrap/js/collapse.js"></script> 

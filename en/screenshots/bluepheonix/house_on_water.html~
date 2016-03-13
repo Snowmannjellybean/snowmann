@@ -21,24 +21,24 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-                <li><a href="../../home">Home</a></li>
+                <li><a href="home">Home</a></li>
                 <li><a id="nohover"><b>·</b></a></li>
                 <li class="disabled"><a href="#"><font color="#E4E4E4">News</font></a></li>
                 <li><a id="nohover"><b>·</b></a></li>
-                <li><a href="../../mapshots">Mapshots</a></li>
+                <li><a href="mapshots">Mapshots</a></li>
                 <li><a id="nohover"><b>·</b></a></li>
-                <li><a href="../../q+a">Q & A</a></li>
+                <li><a href="q+a">Q & A</a></li>
                 <li><a id="nohover"><b>·</b></a></li>
-                <li><a href="../../rules">Rules</a></li>
+                <li><a href="rules">Rules</a></li>
                 <li><a id="nohover"><b>·</b></a></li>
-                <li><a href="../../mods">Mods</a></li>
+                <li><a href="mods">Mods</a></li>
                 <li><a id="nohover"><b>·</b></a></li>
-                <li><a href="../../stats">Playerstatistics</a></li>
+                <li><a href="stats">Playerstatistics</a></li>
                 <li><a id="nohover"><b>·</b></a></li>
-                <li><a href="../../donate">Donate</a></li>
+                <li><a href="donate">Donate</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="../../contact">Contact & Social</a></li>
+                <li><a href="contact">Contact & Social</a></li>
             </ul>
             </div>
         </div>
