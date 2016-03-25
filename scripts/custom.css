@@ -45,6 +45,17 @@ padding-top: 120px;
 margin-top: 120;
 }
 
+.space-top-sm {
+padding-top:40px;
+}
+
+.space-right {
+padding-right:20px;
+}
+
+.space-left {
+padding-left:20px;
+}
 .container {	
 font-family: 'Roboto', sans-serif; 
 font-weight: 400; 
