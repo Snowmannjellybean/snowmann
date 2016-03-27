@@ -198,11 +198,27 @@ font: Roboto;
 color:grey
 }
 
+.avatar {
+max-width:80px;
+padding-left:10px;
+padding-right:10px;
+margin:20px;
+padding: 2px; 
+border: 1px solid #ccc; 
+background-color: #fff;
+border-radius: 60px;
+box-shadow:0 4px 19px -5px rgba(0,0,0,1);
+cursor: pointer;
+}
+
+.blinky-link {
+cursor: pointer;
+}
 .circle-border {
 padding: 2px; 
 border: 1px solid #ccc; 
-background-color: #eee;
-border-radius: 20px;
+background-color: #CAE4FF;
+border-radius: 60px;
 }
 
 .img-frame-sm {
@@ -211,8 +227,18 @@ border: 1px solid #ccc;
 background-color: #eee;
 }
 
+.contact-head {
+background-color:#eee;
+border-radius: 120px;
+border: 1px solid #ccc; 
+max-width:500px;
+}
+
 .scr-label {
 color:blue;
 }
 
+h2 {
+color:#77B0D7;
+}
 .thumbnail {box-shadow:0 9px 19px -5px rgba(0,0,0,0.7);}
