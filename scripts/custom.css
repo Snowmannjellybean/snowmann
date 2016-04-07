@@ -228,6 +228,14 @@ border: 1px solid #ccc;
 background-color: #eee;
 }
 
+.stat-img {
+border: 2px solid #ccc;
+margin: 2px;
+}
+
+#stat-col-sec {
+padding-top:10px;
+}
 .contact-head {
 background-color:#eee;
 border-radius: 120px;
