@@ -80,50 +80,46 @@
 		<small>all screenshots are under:<br></small> <a href="//creativecommons.org/licenses/by-nc-sa/2.0/de/" target="_blank"><img src="//images.illuna-minetest.tk/cc-by-nc-sa.png" style="width:100px;padding-bottom:5px;"></a>
     </div>
     <div class="space-top"></div>
-
+</body>
+<footer class="footer">
+    <div class="container">
+        <div class="pull-left">
+            <div class="by-tchncs">
+                by tchncs.de
+            </div>
+        </div>
+        <ul class="pull-right" id="footer_nav">
+            <li><a href="//media.illuna-minetest.tk">Mediagoblin</a></li>
+            <li>|</li>
+            <li><a id="footer_nav" class="footer_lang" data-target="#lang" data-toggle="modal">toggle language</a></li>
+        </ul>
+        <div class="modal fade" id="lang" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body container-fluid">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div style="text-align:center;">
+                            <h2>available languages</h2>
+                            <div class="col-md-6">
+                                <a type="button" class="btn btn-default" href="/de/">German</a>
+                            </div>
+                            <div class="col-md-6">
+                                <a type="button" class="btn btn-default" href="/">English</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 <script src="//assets.illuna-minetest.tk/js/jquery.min.js"></script>
 <script src="//assets.illuna-minetest.tk/js/ekko-lightbox.js"></script>
-  
 <script src="//assets.illuna-minetest.tk/bootstrap/js/bootstrap.min.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function ($) {
-				// delegate calls to data-toggle="lightbox"
-				$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
-					event.preventDefault();
-					return $(this).ekkoLightbox({
-						always_show_close: true
-					});
-				});
-			});
-		</script>
-		<script type="text/javascript">
-			$(document).ready(function ($) {
-				// delegate calls to data-toggle="lightbox"
-				$(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function(event) {
-					event.preventDefault();
-					return $(this).ekkoLightbox({
-						onShown: function() {
-							if (window.console) {
-								return console.log('onShown event fired');
-							}
-						},
-						onContentLoaded: function() {
-							if (window.console) {
-								return console.log('onContentLoaded event fired');
-							}
-						},
-						onNavigate: function(direction, itemIndex) {
-							if (window.console) {
-								return console.log('Navigating '+direction+'. Current item: '+itemIndex);
-							}
-						}
-					});
-				});
-            });
-</script>
+<script type="text/javascript">$(document).ready(function(e){e(document).delegate('*[data-toggle="lightbox"]',"click",function(t){return t.preventDefault(),e(this).ekkoLightbox({always_show_close:!0})})});</script>
+<script type="text/javascript">$(document).ready(function(o){o(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])',"click",function(n){return n.preventDefault(),o(this).ekkoLightbox({onShown:function(){return window.console?console.log("onShown event fired"):void 0},onContentLoaded:function(){return window.console?console.log("onContentLoaded event fired"):void 0},onNavigate:function(o,n){return window.console?console.log("Navigating "+o+". Current item: "+n):void 0}})})});</script>
 <script src="//assets.illuna-minetest.tk/js/piwik.js"></script>
 <link href="//assets.illuna-minetest.tk/css/ekko-lightbox.css" rel="stylesheet">
 <link href="//assets.illuna-minetest.tk/css/ekko-lightbox-dark.css" rel="stylesheet">
 <link href="//assets.illuna-minetest.tk/css/bg.css" rel="stylesheet" type="text/css">
-</body>
 </html>

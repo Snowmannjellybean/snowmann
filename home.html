@@ -15,7 +15,7 @@
     <title>
         ..:: Illuna Minetest - Home ::..
     </title>
-    <link href='//assets.illuna-minetest.tk/css/page.css' rel="stylesheet" type="text/css">
+    <link href='https://assets.illuna-minetest.tk/css/page.css' rel="stylesheet" type="text/css">
 </head>
 
 <body link="#c7c7c7" vlink="#c7c7c7" alink="#c7c7c7">
@@ -104,7 +104,6 @@
             This will bring you awesome performance.
         </div>
         <div id="" align="right" style="color:grey;">
-        
             <img src="../images/kvm.png" alt="" width="100px"><br><strong>Real Ressources using KVM!</strong><br />
             It's a KVM machine, which means, its not some vserver on an overloaded Host<br />
             Our machine has hard ressources and can always access them.
@@ -113,46 +112,70 @@
             <strong>Custom Theme!</strong><br>
             We are collecting and developing our own <a href="//git.tchncs.de/Illuna-Minetest/BorderlandsRemix" target="_blank">Servertheme</a>.<br />
             If your client using default textures, our theme will be loaded automaticly.
-            
         </div>
         <hr style="margin-top:40px;"/>
-        
-<div id="diashow" class="carousel slide carousel-fade" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#diashow" data-slide-to="0" class="active"></li>
-    <li data-target="#diashow" data-slide-to="1"></li>
-    <li data-target="#diashow" data-slide-to="2"></li>
-  </ol>
- 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="//images.illuna-minetest.tk/diashow/1.jpg" alt="...">
-    </div>
-    <div class="item">
-      <img src="//images.illuna-minetest.tk/diashow/2.jpg" alt="...">
-    </div>
-    <div class="item">
-      <img src="//images.illuna-minetest.tk/diashow/3.jpg" alt="...">
-    </div>
-  </div>
-        <a class="left carousel-control" href="#diashow" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        </a>
-        <a class="right carousel-control" href="#diashow" data-slide="next">
-        	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        </a>
-</div> <!-- Carousel -->
-
+        <div id="diashow" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#diashow" data-slide-to="0" class="active"></li>
+                <li data-target="#diashow" data-slide-to="1"></li>
+                <li data-target="#diashow" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="//images.illuna-minetest.tk/diashow/1.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="//images.illuna-minetest.tk/diashow/2.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="//images.illuna-minetest.tk/diashow/3.jpg" alt="...">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#diashow" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+            <a class="right carousel-control" href="#diashow" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </a>
+        </div>
 </div>
-<br>
- </div>
 </div>
+</div>
+</body>
+<footer class="footer">
+    <div class="container">
+        <div class="pull-left">
+            <div class="by-tchncs">
+                by tchncs.de
+            </div>
+        </div>
+        <ul class="pull-right" id="footer_nav">
+            <li><a href="//media.illuna-minetest.tk">Mediagoblin</a></li>
+            <li>|</li>
+            <li><a id="footer_nav" class="footer_lang" data-target="#lang" data-toggle="modal">toggle language</a></li>
+        </ul>
+        <div class="modal fade" id="lang" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body container-fluid">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div style="text-align:center;">
+                            <h2>available languages</h2>
+                            <div class="col-md-6">
+                                <a type="button" class="btn btn-default" href="/de/">German</a>
+                            </div>
+                            <div class="col-md-6">
+                                <a type="button" class="btn btn-default" href="/">English</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 <script src="//assets.illuna-minetest.tk/js/jquery.min.js"></script>
- 
 <script src="//assets.illuna-minetest.tk/bootstrap/js/bootstrap.min.js"></script>
 <script src="//assets.illuna-minetest.tk/js/piwik.js"></script>
 <link href="//assets.illuna-minetest.tk/css/bg.css" rel="stylesheet" type="text/css">
-</body>
 </html>
