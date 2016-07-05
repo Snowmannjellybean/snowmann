@@ -1158,3 +1158,8 @@
         </nav>
     </div>
     <a href="#" class="back-to-top nohover">Back to Top</a>
+    <% content_for :after do %>
+        <script src="//assets.tchncs.de/bootstrap/js/tooltip.js"></script>
+        <script>$(document).ready(function(){$("[data-toggle='tooltip']").tooltip({html:!0}),$('[data-toggle="popover"]').popover({trigger:"hover",show:!0})});</script>
+        <script src="//assets.tchncs.de/js/btt.js"></script>
+    <% end %>
