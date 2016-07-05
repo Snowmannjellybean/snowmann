@@ -1,0 +1,50 @@
+<% content_for :title, t('screenshots.tower_of_madness.title') %>
+<div class="container shader" id="content">
+    <h3 class="page-header" style="margin-top:-18px;text-align:center;"><% t('screenshots.tower_of_madness.headline') %></h3>
+        <div class="col-sm-6 col-md-3"> 
+            <div class=thumbnail> 
+                <a href="//images.illuna-minetest.tk/screenshots/users/coeseta/tom/tom_1_reg.png" data-toggle="lightbox" data-gallery="navigateTo" data-title="">
+                    <img src="//images.illuna-minetest.tk/screenshots/users/coeseta/tom/tom_1_sm.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3"> 
+            <div class=thumbnail>
+                <a href="//images.illuna-minetest.tk/screenshots/users/coeseta/tom/tom_2_reg.png" data-toggle="lightbox" data-gallery="navigateTo" data-title="">
+                    <img src="//images.illuna-minetest.tk/screenshots/users/coeseta/tom/tom_2_sm.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <div class=thumbnail>
+                 <a href="//images.illuna-minetest.tk/screenshots/users/coeseta/tom/tom_3_reg.png" data-toggle="lightbox" data-gallery="navigateTo" data-title="">
+                     <img src="//images.illuna-minetest.tk/screenshots/users/coeseta/tom/tom_3_sm.jpg">
+                 </a>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <hr>
+            <nav>
+                <ul class="pager">
+                    <li class="previous"><a href="javascript:history.back()"><span aria-hidden="true">&larr;</span> go back</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+<% content_for(:license) do %>
+    <li>all screenshots are licensed under: <a href="//creativecommons.org/licenses/by-nc-sa/2.0/de/" target="_blank"><small><i class="cc cc-cc"></i><i class="cc cc-by"></i><i 
+class="cc cc-nc"></i><i class="cc cc-sa"></i></small></a></li>
+    <li>|</li>
+<% end %>
+<% content_for(:after) do %>
+    <script src="//assets.illuna-minetest.tk/js/ekko-lightbox.js"></script>
+    <script type="text/javascript">$(document).ready(function(e){e(document).delegate('*[data-toggle="lightbox"]',"click",function(t){return 
+t.preventDefault(),e(this).ekkoLightbox({always_show_close:!0})})});</script>
+    <script type="text/javascript">$(document).ready(function(o){o(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])',"click",function(n){return 
+n.preventDefault(),o(this).ekkoLightbox({onShown:function(){return window.console?console.log("onShown event fired"):void 0},onContentLoaded:function(){return 
+window.console?console.log("onContentLoaded event fired"):void 0},onNavigate:function(o,n){return window.console?console.log("Navigating "+o+". Current item: "+n):void 
+0}})})});</script>
+    <link href="//assets.illuna-minetest.tk/css/ekko-lightbox.css" rel="stylesheet">
+    <link href="//assets.illuna-minetest.tk/css/ekko-lightbox-dark.css" rel="stylesheet">
+<% end %>
+

@@ -1,0 +1,15 @@
+current directory: /home/technics/Dokumente/HTML/illuna-minetest.tk/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+/usr/bin/ruby -r ./siteconf20160705-6016-1ovfdc3.rb extconf.rb
+creating Makefile
+
+current directory: /home/technics/Dokumente/HTML/illuna-minetest.tk/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/technics/Dokumente/HTML/illuna-minetest.tk/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/technics/Dokumente/HTML/illuna-minetest.tk/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20160705-6016-wanfq5

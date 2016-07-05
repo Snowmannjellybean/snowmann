@@ -1,0 +1,62 @@
+<% content_for :title, t('home.index.title') %>
+<div class="container shader" id="content">
+        <div align="center">
+            <h2> <%= t('home.index.headline') %></h2>
+        <p style="color: grey;padding-top:1em;padding-bottom:1em;"> <%= t('home.index.description_html') %></p>
+        <a href="screenshots" class="btn btn-primary" data-placement="bottom" data-original-title="view the gallery"><i class="glyphicon glyphicon-picture" aria-hidden="true"></i> Screenshots</a>
+        <button type="button" class="btn btn-success" data-target="#play" data-toggle="modal" data-placement="bottom" data-original-title="nice to have you here :-)"><i class="glyphicon glyphicon-send" aria-hidden="true"></i> <%= t('home.index.join') %> </button>
+        <p style="padding-top:8px;"><strong> <%= t('home.index.release') %> <span id="donate">0.4.14 </span> <a href="http://www.minetest.net/downloads" target="_blank"><i class="glyphicon glyphicon-download"></i></a></strong></p>
+        </div>
+            <div class="modal fade" id="play" tabindex="-1" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="f-left"> <%= t('home.index.modal_title') %> </h4><br>
+                        </div>
+                         <div class="modal-body">
+
+                             <%= t('home.index.modal_step1_html') %>
+                             <%= t('home.index.modal_step2_html') %>
+                             <%= t('home.index.modal_step3_html') %>
+
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <p>&nbsp;</p>
+        <div id="" align="left" style="color:grey;">
+            <p><%= t('home.index.ssdb_html') %></p>
+        </div>
+        <div id="" align="right" style="color:grey;">
+            <p><%= t('home.index.kvm_html') %></p>
+        </div>
+        <div id="" align="left" style="color:grey;">
+            <p><%= t('home.index.theme_html') %></p>
+        </div>
+        <hr style="margin-top:20px;"/>
+        <div id="diashow" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#diashow" data-slide-to="0" class="active"></li>
+                <li data-target="#diashow" data-slide-to="1"></li>
+                <li data-target="#diashow" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="//images.illuna-minetest.tk/diashow/1.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="//images.illuna-minetest.tk/diashow/2.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="//images.illuna-minetest.tk/diashow/3.jpg" alt="...">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#diashow" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+            <a class="right carousel-control" href="#diashow" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </a>
+        </div>
+</div>

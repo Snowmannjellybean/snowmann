@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+   <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="minetest minetestserver illunaminetest minetestilluna minetest-illuna illuna-minetest illuna server texturepack minetestmod mod minecraft">
+	<meta name="description" content="An awesome minetestserver, using handselected mods and a very own texturepack. Be part of this amazing minetest community!">
+	<meta property="og:description" content="An awesome minetestserver, using handselected mods and a very own texturepack. Be part of this amazing minetest community!"/>
+	<meta property="og:locale" content="en_EN"/>
+	<meta property="og:site_name" content="illuna-minetest.tk"/>
+	<meta property="og:url" content="https://illuna-minetest.tk/"/>
+	<meta property="og:image" content=""/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="Minetestserver"/>
+    <title><%= yield(:title) %></title>
+    <link href='https://assets.illuna-minetest.tk/css/page.css' rel="stylesheet" type="text/css">
+</head>
+<body link="#c7c7c7" vlink="#c7c7c7" alink="#c7c7c7">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+              <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>  
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+         <ul class="nav navbar-nav">
+             <li class="<%=is_active('home')%>"><%= link_to t('nav.home'), "/home" %></li>
+             <li><a id="nohover"><b>·</b></a></li>
+                <li><a href="//forum.illuna-minetest.tk">Forum </a></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li class="<%=is_active('rules')%>"><%= link_to t('nav.rules'), "/rules" %></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li class="<%=is_active('faq')%>"><%= link_to "FAQ", "/faq" %></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li class="<%=is_active('mapshots')%>"><%= link_to "Mapshots", "/mapshots" %></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li class="<%=is_active('stats')%>"><%= link_to t('nav.stats'), "/stats" %></li>
+                <li><a id="nohover"><b>·</b></a></li>
+                <li class="<%=is_active('donate')%>"><%= link_to t('nav.donate'), "/donate" %></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="<%=is_active('contact')%>"><%= link_to "Contact & Social", "/contact" %></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="space-top"></div>
+
+    <%= yield %>
+
+</body>
+<footer class="footer">
+    <div class="container">
+         <div class="pull-left">
+             <div class="by-tchncs">
+                 by tchncs.de
+             </div>
+         </div>
+         <ul class="pull-right" id="footer_nav">
+             <%= yield(:license) %>
+             <%= yield(:impressum) %>
+             <li><a href="//media.illuna-minetest.tk"><i class="glyphicon glyphicon-cloud-upload" aria-hidden="true"></i> Mediagoblin</a></li>
+             <li>|</li>
+             <li><a id="footer_nav" class="footer_lang" data-target="#lang" data-toggle="modal"><i class="glyphicon glyphicon-globe"></i> toggle language</a></li>
+         </ul>
+         <div class="modal fade" id="lang" tabindex="-1" role="dialog">
+             <div class="modal-dialog">
+                 <div class="modal-content">
+                     <div class="modal-body container-fluid">
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                         <div style="text-align:center;">
+                             <h2>available languages</h2>
+                             <div class="col-md-6">
+                                 <%= link_to "German", change_locale_path(:de), :class => "btn btn-default" %>
+                             </div>
+                             <div class="col-md-6">
+                                 <%= link_to "English", change_locale_path(:en), :class => "btn btn-default" %>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+</footer>
+<script src="https://assets.illuna-minetest.tk/js/jquery.min.js"></script>
+<script src="https://assets.illuna-minetest.tk/bootstrap/js/bootstrap.min.js"></script>
+<%= yield(:after) %>
+<link href="//assets.illuna-minetest.tk/css/bg.css" rel="stylesheet" type="text/css">
