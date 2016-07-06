@@ -1,5 +1,4 @@
 <% content_for :title, t('screenshots.bennys_residence.title') %>
-<div class="container shader" id="content">
     <h3 class="page-header" style="margin-top:-18px;text-align:center;"><%= t('screenshots.bennys_residence.headline') %></h3>
         <div class="col-sm-6 col-md-3">
             <div class=thumbnail>
@@ -37,7 +36,6 @@
                 </ul>
             </nav>
         </div>
-    </div>
 <% content_for(:license) do %>
     <li>all screenshots are licensed under: <a href="//creativecommons.org/licenses/by-nc-sa/2.0/de/" target="_blank"><small><i class="cc cc-cc"></i><i class="cc cc-by"></i><i 
 class="cc cc-nc"></i><i class="cc cc-sa"></i></small></a></li>
@@ -45,12 +43,8 @@ class="cc cc-nc"></i><i class="cc cc-sa"></i></small></a></li>
 <% end %>
 <% content_for(:after) do %>
     <script src="//assets.illuna-minetest.tk/js/ekko-lightbox.js"></script>
-    <script type="text/javascript">$(document).ready(function(e){e(document).delegate('*[data-toggle="lightbox"]',"click",function(t){return 
-t.preventDefault(),e(this).ekkoLightbox({always_show_close:!0})})});</script>
-    <script type="text/javascript">$(document).ready(function(o){o(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])',"click",function(n){return 
-n.preventDefault(),o(this).ekkoLightbox({onShown:function(){return window.console?console.log("onShown event fired"):void 0},onContentLoaded:function(){return 
-window.console?console.log("onContentLoaded event fired"):void 0},onNavigate:function(o,n){return window.console?console.log("Navigating "+o+". Current item: "+n):void 
-0}})})});</script>
+    <script type="text/javascript">$(document).ready(function(e){e(document).delegate('*[data-toggle="lightbox"]',"click",function(t){return t.preventDefault(),e(this).ekkoLightbox({always_show_close:!0})})});</script>
+    <script type="text/javascript">$(document).ready(function(o){o(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])',"click",function(n){return n.preventDefault(),o(this).ekkoLightbox({onShown:function(){return window.console?console.log("onShown event fired"):void 0},onContentLoaded:function(){return window.console?console.log("onContentLoaded event fired"):void 0},onNavigate:function(o,n){return window.console?console.log("Navigating "+o+". Current item: "+n):void 0}})})});</script>
     <link href="//assets.illuna-minetest.tk/css/ekko-lightbox.css" rel="stylesheet">
     <link href="//assets.illuna-minetest.tk/css/ekko-lightbox-dark.css" rel="stylesheet">
 <% end %>
