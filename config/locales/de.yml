@@ -6,7 +6,7 @@ de:
         donate: "Unterstützen"
     home:
         index:
-            title: "The World of Illuna | Home"
+            title: "Home"
             headline: "..:: willkommen in der wundervollen Welt von Illuna ::.."
             description_html: " …einem deutschen Minetestserver, mit einer einzigartigen Modsammlung, eigenem Texturepack und einem hohen Qualitätsanspruch.<br>Du kannst uns in der öffentlichen Serverliste, in deinem Clienten finden."
             join: "Trete dem Spiel bei!"
@@ -19,7 +19,7 @@ de:
             kvm_html: "<strong>Echte Ressourcen durch einsetzen einer KVM!</strong><br>Es ist eine KVM Maschine, nicht irgendeine OpenVZ auf einem überladenen Host!<br />Dieser Server hat fest definierte Ressourcen und kann stets darauf zugreifen."
             theme_html: "<strong>Eigenes Theme!</strong><br>Wir kreieren und stellen ein komplett eigenes <a href=_//git.tchncs.de/Illuna-Minetest/BorderlandsRemix' target='_blank'>Servertheme</a> zusammen.<br /> Wenn du kein Texturpack installiert hast, bekommst du automatisch das Serverseitige."
         rules:
-            title: "The World of Illuna | Regelwerk"
+            title: "Regelwerk"
             headline: "Regelwerk"
             head_general: "allgemeine Regeln"
             head_tnt: "TNT"
@@ -41,7 +41,7 @@ de:
             tnt_asking: "das Team darf nach dem Privileg gefragt werden, ein immer wiederkehrendes Fragen ist jedoch nicht gestattet."
             mesecons_html: "Wir bitten alle Spieler darauf zu achten ihre Systeme so zu bauen, das Objekte einen möglichst kurzen Weg zurücklegen müssen.<br>Minetest ist für solche Systeme nicht ausgelegt und hat so schon genug Probleme das effizient und schnell zu bewältigen.<br>Mit anderen Worten: mit zu ineffizienten Systemen kann es zu Lags kommen. Es werden mitunter Teleport Tubes empfohlen."
         faq:
-            title: "The World of Illuna | FAQ"
+            title: "FAQ"
             headline: "Noch Fragen?"
             password_html: "<strong>Wie lautet das Serverpasswort?</strong><br><br>Du hast die Wahl. Der erste Login entspricht einer Registrierung auf dem Server,<br>du kannst dein Passwort also frei wählen.<br>Wenn Du dich nichtmehr einloggen kannst, nachdem du dich mit verschieden alten Clients,<br>versucht hast einzuloggen, kontaktiere uns bitte.<br>Die Verschlüsselung der Passwörter hat sich in der 0.4.13 Release geändert.<br>"
             interact_html: "<strong>Ich bin neu auf dem Server und kann nichts abbauen</strong><br><br>Um unsere Spieler vor Trolls und anderen gemeinen Kindern zu schützen,<br>kommen alle neuen Spieler ersteinmal als Gäste auf den Server.<br>Bitte lese dir als Erstes <a href='/rules'>unsere Regeln</a> durch und folge den dortigen Instruktionen."
@@ -57,16 +57,16 @@ de:
             sources_git: "Git"
             mapgen_html: "<strong>Welches Mapgen wird eingesetzt?</strong><br><br>Wir verwenden Mapgen v6 und v7."
         mapshots:
-            title: "The World of Illuna | Mapshots"
+            title: "Mapshots"
             headline: "betrachte unsere wundervolle welt aus der sicht eines satelliten!"
             new_tab: "in neuem Tab öffnen"
             static_image: "komplettes Bild downloaden"
             history: "alle Mapshots ansehen"
         stats:
-            title: "The World of Illuna | Statistiken"
+            title: "Statistiken"
             headline: "Statistiken. Alle 5 Minuten aktualisiert."
         donate:
-            title: "The World of Illuna | Unterstützen"
+            title: "Unterstützen"
             description: "Du kannst uns Geld spenden. Das wird uns helfen unsere Dienste zu bezahlen und dem Projekt entsprechend helfen, lange zu leben:"
             amazing: "Hier kannst du in Prozent sehen, wie uns fantastische Menschen bereits unterstützt haben, unsere Kosten zu begleichen"
             payd: "bezahlt: "
@@ -77,7 +77,7 @@ de:
             cool_idea_html: "wenn du eine coole Idee hast, den Server zu verbessern, <a href='//forum.illuna-minetest.tk/post/discussion/feedback' target='_blank'>schreibe uns einfach</a> <img src='//images.illuna-minetest.tk/icons/twink.png' width='20px'></p>"
             textures: "Texturen"
         contact:
-            title: "The World of Illuna | Contact & Social"
+            title: "Contact & Social"
             headline: "Das Team kontaktieren"
             headline2: "Treffe Deine Community!"
             head_connected: "Unsere Chats sind verbunden. Schreib mit deinen Mitspielern von wo Du willst:"
@@ -91,7 +91,7 @@ de:
             write_in_minetest: "Schreibe mit uns in Minetest"
             just_write_in_minetest_html: "Schreib einfach<br>im öffentlichen Minetestchat, ingame"
         mods:
-            title: "The World of Illuna | Modliste"
+            title: "Modliste"
             headline: "Modliste"
             3d_armor_html: "Part of the original Minetest game./Teil des originalen Minetest game."
             ambience: "Hintergrundmusik und Geräusche"
@@ -164,26 +164,26 @@ de:
             xpanes: "Teil des originalen Minetest game."
     screenshots:
         index:
-            title: "The World of Illuna | Offizielle Screenshots"
+            title: "Offizielle Screenshots"
             headline: "..:: (erste) offizielle Screenshots unserer wundervollen Welt ::.."
         bennys_residence:
-            title: "The World of Illuna | Benny's Wohnhaus"
+            title: "Benny's Wohnhaus"
             headline: "..:: benny's wohnhaus ::.." 
         country_house:
-            title: "The World of Illuna | Kelso's Landhaus" 
+            title: "Kelso's Landhaus" 
             headline: "..:: kelso's landhaus ::.."
         home_on_water:
-            title: "The World of Illuna | bluepheonix's Haus am Wasser"
+            title: "bluepheonix's Haus am Wasser"
             headline: "..:: bluepheonix's haus am wasser ::.."
         londors_residence:
-            title: "The World of Illuna | Londor's Wohnhaus"
+            title: "Londor's Wohnhaus"
             headline: "..:: londor's wohnhaus ::.."
         skyscraper:
-            title: "The World of Illuna | sunstorm314's Wolkenkratzer"
+            title: "sunstorm314's Wolkenkratzer"
             headline_html: "..:: sunstorm314's Wolkenkratzer ::..<br><small>aktuelle Höhe: 530m (13 März 2016)</small></h3>"
         tower_of_madness:
-            title: "The World of Illuna | coeseta's Tower of Madness"
+            title: "coeseta's Tower of Madness"
             headline: "..:: coeseta's tower of madness ::.."
         townhall:
-            title: "The World of Illuna | coeseta's Stadthalle"
+            title: "coeseta's Stadthalle"
             headline: "..:: coeseta's stadthalle ::.." 

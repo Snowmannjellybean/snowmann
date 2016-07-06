@@ -6,7 +6,7 @@ en:
         donate: "Donate"
     home:
         index:
-            title: "The World of Illuna | Home"
+            title: "Home"
             headline: "..:: welcome to the wonderful World of Illuna ::.."
             description_html: "…a german Minetest PvP Server the an unique modcollection, an own texturepack and a high quality demanding.<br>You will find us on the public Serverlist on your Client."
             join: "Let's join the game!"
@@ -19,7 +19,7 @@ en:
             kvm_html: "<strong>Real Ressources using KVM!</strong><br>It's a KVM machine, which means, its not some vserver on an overloaded Host<br>Our machine has hard ressources and can always access them."
             theme_html: "<strong>Custom Theme!</strong><br>We are collecting and developing our own <a href='//git.tchncs.de/Illuna-Minetest/BorderlandsRemix' target='_blank'>Servertheme</a>.<br>If your client using default textures, our theme will be loaded automaticly"
         rules:
-            title: "The World of Illuna | Rules"
+            title: "Rules"
             headline: "Rules Book"
             head_general: "general Rules"
             head_tnt: "TNT"
@@ -41,7 +41,7 @@ en:
             tnt_asking: "You are able to ask the team for this privilegen but we dont want to be asked recurrently."
             mesecons_html: "We ask you to build your automatism Systems with less way for objects as possible.<br>Please use teleportation tubes for example.<br>Minetest is not written to handle many objects in long-way pipes and have naturally trouble to handle this properly.<br>If you build too large systems with long pipes, you may get the hole server lagging."
         faq:
-            title: "The World of Illuna | FAQ"
+            title: "FAQ"
             headline: "Some Questions?"
             password_html: "<strong>why is the server asking for a password?</strong><br><br>You have the choice, just use your prefered one.<br>We think its important, that everyone secures his account with a password.<br>It's hashed serverside for your privacy.<br>If you have trouble logging in after switching Minetest clients with different build numbers,<br>please contact us. Thats because the hash mechanism had changed in 0.4.13."
             interact_html: "<strong>Im new at the Server and cant dig anything</strong><br><br>To be sure that no one came only to troll and griefing, we disabled the interact privilege by default.<strong><br></strong>Feel free to check out if you want to play on our world.<br>If you want to play here, doublecheck the rules and follow the instructions.<br>"
@@ -57,16 +57,16 @@ en:
             sources_git: "our Git"
             mapgen_html: "<strong>What Mapgen is used?</strong><br><br>We are using Mapgen V6 and V7"
         mapshots:
-            title: "The World of Illuna | Mapshots"
+            title: "Mapshots"
             headline: "See our world like a satellite!"
             new_tab: "open map in new tab"
             static_image: "download full static image"
             history: "browse the history"
         stats:
-            title: "The World of Illuna | Statistics"
+            title: "Statistics"
             headline: "Statistics. Updated every 5 minutes."
         donate:
-            title: "The World of Illuna | Donate"
+            title: "Donate"
             description: "You can donate us some money or help us to solve problems. This will help this project to stay alive."
             amazing: "here you can see how much the amazing people helped us to pay the services:"
             payd: "payd: "
@@ -77,7 +77,7 @@ en:
             cool_idea_html: "if you have a cool idea how we can improve this minetestserver, <a href='//forum.illuna-minetest.tk/post/discussion/feedback' target='_blank'>please write us!</a> <img src='//images.illuna-minetest.tk/icons/twink.png' style='max-width:20px;'>"
             textures: "textures"
         contact:
-            title: "The World of Illuna | Contact & Social"
+            title: "Contact & Social"
             headline: "Contact the Team"
             headline2: "Meet Your Community!"
             head_connected: "Our chats are connected. Meet us where ever you want:"
@@ -91,7 +91,7 @@ en:
             write_in_minetest: "Write with us in Minetest"
             just_write_in_minetest_html: "Just write with us,<br>in the public Minetest chat"
         mods:
-            title: "The World of Illuna | Modlist"
+            title: "Modlist"
             headline: "Modlist"
             3d_armor_html: "Brings armor and shields to the game.<br>This and items in your hands will be visible to other players."
             ambience: "Backgroundmusic and sounds."
@@ -165,26 +165,26 @@ en:
 
     screenshots:
         index:
-            title: "The World of Illuna | Official Screenshots"
+            title: "Official Screenshots"
             headline: "..:: (first) screenshots of our wonderful world ::.."
         bennys_residence:
-            title: "The World of Illuna | Benny's Residence"
+            title: "Benny's Residence"
             headline: "..:: benny's residence ::.." 
         country_house:
-            title: "The World of Illuna | Kelso's Country House" 
+            title: "Kelso's Country House" 
             headline: "..:: kelso's country house ::.."
         home_on_water:
-            title: "The World of Illuna | bluepheonix's House on Water"
+            title: "bluepheonix's House on Water"
             headline: "..:: bluepheonix's house on water ::.."
         londors_residence:
-            title: "The World of Illuna | Londor's Residence"
+            title: "Londor's Residence"
             headline: "..:: londor's residence ::.."
         skyscraper:
-            title: "The World of Illuna | sunstorm314's Skyscraper"
+            title: "sunstorm314's Skyscraper"
             headline_html: "..:: sunstorm314's skyscraper ::..<br><small>current height: 530m (13 March 2016)</small></h3>"
         tower_of_madness:
-            title: "The World of Illuna | coeseta's Tower of Madness"
+            title: "coeseta's Tower of Madness"
             headline: "..:: coeseta's tower of madness ::.."
         townhall:
-            title: "The World of Illuna | coeseta's Townhall"
+            title: "coeseta's Townhall"
             headline: "..:: coeseta's townhall ::.." 
