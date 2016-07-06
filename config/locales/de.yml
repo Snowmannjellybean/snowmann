@@ -27,7 +27,7 @@ de:
             fire: "Es ist nicht gestattet, eine Brandrodung zu vollziehen. Das Feuer ist leider zu schwer unter Kontrolle zu bringen."
             steal: "Es darf auch aus ungesperrten Truhen nichts entnommen werden. Auch nicht von Admins."
             steal_except_html: "Ausnahmen:<br />-Ausdrückliche Erlaubnis des Besitzers<br />-Sharepoints</p>"
-            distance_html: "Im Umkreis von 100 Blöcken um ein Baugebiet eines individuellen Spielers darf nichts verändert werden.<br>Dies gilt ebenfals bis 1000 Blöcken über und unter dem Gebiet.<br />Es darf auch kein Baum gefällt werden o.ä.<br>"
+            distance_html: "Im Umkreis von 100 Blöcken um ein Baugebiet eines individuellen Spielers darf nichts verändert werden.<br>Dies gilt ebenfals bis 10000 Blöcken über und unter dem Gebiet.<br />Es darf auch kein Baum gefällt werden o.ä.<br>"
             distance_except_html: "Ausnahmen:<br />-ausdrückliche Erlaubnis des Bautreibenden<br>-ein Admin erlaubt es Dir<br><i><strong>Diese aktualisierte Regel gilt nur für neu erschlossene Gebiete ab dem 06. Juli 2016.</strong></i>"
             insults: "Persönliche Beleidigungen, jede Form von Mobbing, rassistische Äusserungen etc. sind nicht gestattet."
             flattening: "Planieren und zerstören ganzer Landschaften ist nicht erwünscht."
