@@ -42,7 +42,7 @@
                 <li><a id="nohover"><b>·</b></a></li>
                 <li class="<%=is_active('stats')%>"><%= link_to t('nav.stats'), "/stats" %></li>
                 <li><a id="nohover"><b>·</b></a></li>
-                <li class="<%=is_active('donate')%>"><%= link_to t('nav.donate'), "/donate" %></li>
+                <li class="<%=is_active('donate')%>"><%= link_to t('nav.donate'), "/donate", :id => "donate" %></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="<%=is_active('contact')%>"><%= link_to "Contact & Social", "/contact" %></li>
