@@ -21,17 +21,21 @@
                     <ul class="list-group" id="regular-table" style="max-width:300px;">
                         <strong>
                             <li class="list-group-item" id="regular-table" style="max-width:300px;"><span style="font-size: 120%;"> <%= t('home.donate.payd') %> <p id="f-right"  data-toggle="tooltip" data-placement="top" title="" data-original-title="KVM: 19€/month">281,98€</p></span></li>                           
-                            <li  class="list-group-item" id="regular-table" style="max-width:300px;"style="font-size: 120%;"><span> <%= t('home.donate.donated') %> <p id="f-right" style="color:#E07434;">174,41€</p></span></li>
+                            <li  class="list-group-item" id="regular-table" style="max-width:300px;"style="font-size: 120%;"><span> <%= t('home.donate.donated') %> <p id="f-right" style="color:#E07434;">175,41€</p></span></li>
                         </strong>
                     </ul>
                 </table>
             </ol>
         </ul>
+        <%= form_for @banking do |f| %>
+        <%= recaptcha_tags %>
+            <%= f.submit %>
+        <% end %>
         <hr>
         <h4 style="text-align:center;"><%= t('home.donate.amazing') %></h4>
         <div class="progress">
             <div class="progress-bar progress-bar-striped progress-bar-success active" style="width: 59%">
-                <span><div style="align:center;color:white;"><b>59.01%</b></div></span><br>
+                <span><div style="align:center;color:white;"><b>62.22%</b></div></span><br>
             </div>
         </div>
         <hr /><br>
