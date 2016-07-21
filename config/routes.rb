@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'admin/index'
+
     get '/change_locale/:locale', to: 'settings#change_locale', as: :change_locale
 
 controller :home do
@@ -9,6 +11,7 @@ controller :home do
     get 'stats' => 'home#stats', :as => 'stats'
     get 'donate' => 'home#donate', :as => 'donate'
     get 'contact' => 'home#contact', :as => 'contact'
+    get 'hosting' => 'home#hosting', :as => 'hosting'
     get 'mods' => 'home#mods', :as => 'mods'
     root :to => 'home#index'
 end
@@ -23,6 +26,11 @@ controller :screenshots do
     get 'screenshots/skyscraper' => 'screenshots#skyscraper'
     get 'screenshots/bennys_residence' => 'screenshots#bennys_residence'
     root :to => 'screenshots#index'
+end
+
+controller :admin do
+    get 'admin' => 'admin#index', :as => 'admin'
+    get 'login' => 'admin#login', :as => 'login'
 end
 end
 

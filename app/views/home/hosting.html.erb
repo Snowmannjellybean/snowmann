@@ -1,0 +1,102 @@
+<% content_for :title, t('home.hosting.title') %>
+        <div align="center">
+            <h2> <%= t('home.hosting.headline') %></h2>
+            <p style="color: grey;padding-top:1em;padding-bottom:1em;"> <%= t('home.hosting.description_html') %></p>
+            <div style="padding-left:4em;padding-right:4em;">
+                <div class="col-md-6" style="padding-right:2em;"> 
+                <div class="list-group">
+                    <button class="list-group-item disabled">
+                        <h5 style="text-align:center;">This is in the package</h5>
+                    </button>
+                    <button type="button" class="list-group-item">
+                        <i class="glyphicon glyphicon-ok" style="color:#5FB065"></i> 24/7 Uptime
+                    </button>
+                    <button type="button" class="list-group-item">
+                        <i class="glyphicon glyphicon-ok" style="color:#5FB065"></i> Latest minetest snapshot
+                    </button>
+                    <button type="button" class="list-group-item">
+                        <i class="glyphicon glyphicon-ok" style="color:#5FB065"></i> High performance database system
+                    </button>
+                    <button type="button" class="list-group-item">
+                        <i class="glyphicon glyphicon-ok" style="color:#5FB065"></i> Individual servermods
+                    </button>
+                    <button type="button" class="list-group-item">
+                        <i class="glyphicon glyphicon-ok" style="color:#5FB065"></i> SSD under the hood
+                    </button>
+                    <button type="button" class="list-group-item">
+                        <i class="glyphicon glyphicon-ok" style="color:#5FB065"></i> Daily Backups
+                    </button>
+                    <button type="button" class="list-group-item">
+                        <i class="glyphicon glyphicon-ok" style="color:#5FB065"></i> Easy to use webpanel to control your server (soon)
+                    </button>
+                    <button type="button" class="list-group-item">
+                        <i class="glyphicon glyphicon-ok" style="color:#5FB065"></i> Cancel or freeze your server any time you want
+                    </button>
+                    <button type="button" class="list-group-item">
+                        <i class="glyphicon glyphicon-ok" style="color:#5FB065"></i> No disgusting position reset
+                    </button>
+                    <button type="button" class="list-group-item">
+                        <i class="glyphicon glyphicon-ok" style="color:#5FB065"></i> Gigabit Lan
+                    </button>
+                    <button type="button" class="list-group-item">
+                        <i class="glyphicon glyphicon-ok" style="color:#5FB065"></i> Ddos protected hostmachine
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6" style="color:gray;text-align:left">
+                <div style="padding-top:1em;"></div>
+                <h5><%= t('home.hosting.ready') %></h5>
+                <%= t('home.hosting.get_html') %>
+                <h5><%= t('home.hosting.pay_with') %></h4>
+                <ul>
+                    <li>PayPal</li>
+                    <li>Bitcoin</li>
+                    <li><%= t('home.hosting.banktransfer') %></li>
+                </ul>
+                <h5><%= t('home.hosting.need_to_know') %></h5>
+                <ul>
+                    <li><%= t('home.hosting.servermods') %></li>
+                    <li><%= t('home.hosting.subgame') %></li>
+                    <li><%= t('home.hosting.players') %></li>
+                    <li><%= t('home.hosting.adminname') %></li>
+                    <li><%= t('home.hosting.public') %></li>
+                </ul>
+                <%= t('home.hosting.dont_worry_html') %>
+                <div style="padding-top:6em;"></div>
+                <a type="button" class="btn btn-success disabled pull-right">to your webpanel</a>
+            </div>
+            </div>
+        </div>
+        <%= content_for(:license) do %>
+            <li><a style="font-weight:400;cursor:pointer;" data-target="#tos" data-toggle="modal"><i class="glyphicon glyphicon-tags"></i> TOS</a></li>
+            <li>|</li>
+            <li><a href="//tchncs.de/impressum.html" target="_blank" style="font-weight:400;"><i class="glyphicon glyphicon-tree-deciduous"></i> Impressum</a></li>
+            <li>|</li>
+            <div class="modal fade" id="tos" tabindex="-1" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="f-left"> Terms of Use </h4>
+                        </div>
+                        <div class="modal-body">
+                            <h4><%= t('home.hosting.general_head') %></h4>
+                            <%= t('home.hosting.general_content') %>
+                            <h4><%= t('home.hosting.refund_head') %></h4>
+                            <%= t('home.hosting.refund_content') %>
+                            <h4><%= t('home.hosting.overdue_head') %></h4>
+                            <%= t('home.hosting.overdue_content') %>
+                            <h4><%= t('home.hosting.ressource_head') %></h4>
+                            <%= t('home.hosting.ressource_content') %>
+                            <h4><%= t('home.hosting.mods_head') %></h4>
+                            <%= t('home.hosting.mods_content') %>
+                            <h4><%= t('home.hosting.backups_head') %></h4>
+                            <%= t('home.hosting.backups_content') %>
+                            <h4><%= t('home.hosting.abuse_head') %></h4>
+                            <%= t('home.hosting.abuse_content') %><br><br>
+                            <%= t('home.hosting.change_content') %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <% end %>
