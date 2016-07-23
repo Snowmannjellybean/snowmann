@@ -1,8 +1,12 @@
 <% content_for :title, t('screenshots.index.title') %>
 <% content_for (:stylesheet) do %>
     <link rel="stylesheet" href="//assets.illuna-minetest.tk/gallery/css/blueimp-gallery.min.css">
-    <link rel="stylesheet" href="//assets.illuna-minetest.tk/gallery-bootstrap/css/bootstrap-image-gallery.min.css">
+    <link rel="stylesheet" href="//assets.illuna-minetest.tk/gallery-bootstrap/css/bootstrap-image-gallery.css">
 	<link rel="stylesheet" href="//assets.illuna-minetest.tk/gallery/css/blueimp-gallery-indicator.css">
+
+
+
+</head>
 <% end %>
         <h3 class="page-header" style="margin-top:-18px;text-align:center;"><%= t('screenshots.index.headline') %></h3>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb"> 
@@ -244,7 +248,7 @@
                 </ul>
             </nav>
         </div>
-        <div id="blueimp-gallery" class="blueimp-gallery" data-use-bootstrap-modal="false">
+        <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-use-bootstrap-modal="false">
             <div class="slides"></div>
             <a class="prev">‹</a>
             <a class="next">›</a>
