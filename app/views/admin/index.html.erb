@@ -1,0 +1,30 @@
+<% if logged_in? %>
+<h1>Admin</h1>
+<button type="button" class="btn btn-primary pull-right" style="margin-top:-5rem;">Refresh</button>
+<pre id="tail" style="height:600px;"><%= @logs %></pre>
+<% content_for(:after) do %>
+    <script>
+tailScroll();
+
+function updateDiv(){
+$('#tail').triggerevent(function(){
+        $('#tail').html(newContent);
+});
+setInterval(updateDiv, 1000);
+}
+$("button").click(function (e) {
+window.location.reload(true);
+});
+function tailScroll() {
+    var height = $("#tail").get(0).scrollHeight;
+    $("#tail").animate({
+        scrollTop: height
+    }, 500);
+}
+    </script>
+<% end %>
+
+<% else %>
+    <h1> nope </h1>
+<% end %>
+

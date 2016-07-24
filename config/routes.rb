@@ -30,7 +30,6 @@ end
 
 controller :admin do
     get 'admin' => 'admin#index', :as => 'admin'
-    get 'login' => 'admin#login', :as => 'login'
 end
 end
 
