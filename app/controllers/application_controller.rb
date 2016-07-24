@@ -22,8 +22,11 @@ class ApplicationController < ActionController::Base
         I18n.locale = l
     end
     protect_from_forgery with: :exception
-  #def default_url_options(options={})
-        #logger.debug "default_url_options is passed options: #{options.inspect}\n"
-  #        { :locale => I18n.locale }
-  #end
+
+    protected
+    def authenticate
+        authenticate_or_request_with_http_basic('Hi there, please sign in first :-)') do |username, password|
+            username == USER && password == PASSWORD
+        end
+    end
 end
