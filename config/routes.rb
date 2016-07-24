@@ -11,7 +11,6 @@ controller :home do
     get 'stats' => 'home#stats', :as => 'stats'
     get 'donate' => 'home#donate', :as => 'donate'
     get 'contact' => 'home#contact', :as => 'contact'
-    get 'hosting' => 'home#hosting', :as => 'hosting'
     get 'mods' => 'home#mods', :as => 'mods'
     root :to => 'home#index'
 end
