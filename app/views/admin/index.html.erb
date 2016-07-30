@@ -5,7 +5,7 @@
     <pre id="tail" class="scroll"></pre>  
 
     <% content_for(:after) do %>
-        <script src="https://illuna:1llun4forFun@illuna-minetest.tk/socket/socket.io.js"></script>
+        <script src="https://admin:password@illuna-minetest.tk/socket/socket.io.js"></script>
         <script>var Application=function(){var t=io("https://user:password@illuna-minetest.tk",{path:"/socket/socket.io"});t.connect();var o=0;return t.on("connect",function(){console.log("Connected to:",t.host)}),t.on("message",function(t){console.log("Received message:",t),t.tail&&($("#tail").html($("#tail").html()+t.tail),o++,$("#tail").scrollTop(100*o))}),{socket:t}};$(function(){Application()});</script>
     <% end %>
 
